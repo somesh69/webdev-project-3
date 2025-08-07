@@ -75,7 +75,7 @@ Intern @ ApexPlanet Software Pvt. Ltd.
 
 🚀 Live Demo
 
-🔗[ Click here to view the live project ](http://127.0.0.1:3000/t3.html)
+🔗[ Click here to view the live project ]((http://127.0.0.1:3000/t3.html))
 
 
 
@@ -88,7 +88,9 @@ Intern @ ApexPlanet Software Pvt. Ltd.
 ![alt text](<Screenshot 2025-08-07 104614.png>)
 
 🔹 Calendar Section
-![alt text](<Screenshot 2025-08-07 104642.png>)
+<img width="1907" height="991" alt="Screenshot 2025-08-07 104642" src="https://github.com/user-attachments/assets/75753b80-29f2-4e35-af55-0ca84ca4d60b" />
+
+
 
 
 
@@ -99,5 +101,6 @@ Improved skills in modular UI design using HTML and CSS
 Gained confidence working with dynamic JavaScript features
 
 Learned to create clean and intuitive user interfaces
+
 
 Enhanced ability to switch themes and update DOM efficiently
