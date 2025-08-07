@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Productivity Dashboard</title>
+  <link rel="stylesheet" href="t3.css" />
+</head>
+<body>
+  <div class="dashboard-container">
+    <header>
+      <h1>🌟 Productivity Dashboard</h1>
+      <button id="themeToggle">🌙 Toggle Theme</button>
+    </header>
+
+    <nav class="tabs">
+      <button class="tab-btn active" onclick="switchTab('clock')">⏰ Clock</button>
+      <button class="tab-btn" onclick="switchTab('todo')">✅ To-Do List</button>
+      <button class="tab-btn" onclick="switchTab('calendar')">📅 Calendar</button>
+    </nav>
+
+    <main>
+      <section class="tab-content active" id="clock-tab">
+        <div class="card">
+          <h2>⏰ Current Time</h2>
+          <div id="clock" class="clock-display">--:--:--</div>
+        </div>
+      </section>
+
+      <section class="tab-content" id="todo-tab">
+        <div class="card">
+          <h2>✅ To-Do List</h2>
+          <input type="text" id="todoInput" placeholder="Add a task..." />
+          <button onclick="addTask()">Add Task</button>
+          <ul id="todoList"></ul>
+        </div>
+      </section>
+
+      <section class="tab-content" id="calendar-tab">
+        <div class="card">
+          <h2>📅 Calendar</h2>
+          <div id="calendarContainer"></div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="t3.js"></script>
+</body>
+</html>
