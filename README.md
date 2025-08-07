@@ -75,7 +75,7 @@ Intern @ ApexPlanet Software Pvt. Ltd.
 
 🚀 Live Demo
 
-🔗[ Click here to view the live project ]((http://127.0.0.1:3000/t3.html))
+🔗[ Click here to view the live project ](http://127.0.0.1:3000/t3.html)
 
 
 
@@ -104,3 +104,4 @@ Learned to create clean and intuitive user interfaces
 
 
 Enhanced ability to switch themes and update DOM efficiently
+
